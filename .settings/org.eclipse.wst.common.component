@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="RumboJ">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/properties"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/common"/>
+        <dependent-module archiveName="spring-beans-4.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Jars/spring-framework-4.2.1.RELEASE-dist/spring-framework-4.2.1.RELEASE/libs/spring-beans-4.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aspects-4.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Jars/spring-framework-4.2.1.RELEASE-dist/spring-framework-4.2.1.RELEASE/libs/spring-aspects-4.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-4.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Jars/spring-framework-4.2.1.RELEASE-dist/spring-framework-4.2.1.RELEASE/libs/spring-aop-4.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-4.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Jars/spring-framework-4.2.1.RELEASE-dist/spring-framework-4.2.1.RELEASE/libs/spring-expression-4.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-4.2.1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Jars/spring-framework-4.2.1.RELEASE-dist/spring-framework-4.2.1.RELEASE/libs/spring-core-4.2.1.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Jars/jstl-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-2.3.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Jars/gson-2.3.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/RumboJ/build/classes"/>
+        <property name="context-root" value="RumboJ"/>
+    </wb-module>
+</project-modules>
